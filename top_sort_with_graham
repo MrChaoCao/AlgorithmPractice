@@ -1,0 +1,28 @@
+arr = [[3,1], [2,1], [6,5],]
+unique_vertices = Set.new
+
+arr.each do |el|
+  Set.insert(el[0])
+end
+
+vert_array = []
+
+unique_vertices.each do |uvertex|
+  uvertex = Vertex.new()
+  vert_array << uvertex
+end
+
+arr.each do |node|
+  Edge.new(node[1], node[0])
+end
+
+
+
+
+little hard to follow
+dived right in to example + pseudo code
+go into why this works
+
+try to restate the question
+
+volume
